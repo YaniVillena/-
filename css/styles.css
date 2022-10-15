@@ -1,0 +1,163 @@
+body{
+    overflow-x: hidden;
+}
+.logo{
+    background-color: rgba(0, 0, 0, 0.986);
+    color: aliceblue;
+    height: 80px;
+    width: 1600px;
+}
+.logo__img{
+   height: 80px;
+   width: 80px;
+}
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.titulo{
+    color: rgba(223, 225, 233, 0.918);
+    display: block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: center;
+    margin-top: 80px;
+}
+.section{
+    background-image: url(https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 1600px;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto{   
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.padre__oferta{
+    display: flex;
+    justify-content: space-evenly;
+}
+.oferta{
+    width: 650px;
+    height: 400px; 
+}
+.jubi{
+    width: 650px;
+    height: 400px;
+}
+.contenedorimg{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 20px;
+    margin-top: 100px;
+}
+.a{
+    text-decoration: none;
+}
+
+.pasajes{
+    background-image:url(./fotos/mexico.jpg);
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+}
+.pasajes1{
+    background-image: url(./fotos/mardelplata.webp);
+    width:  250px;
+    height: 250px;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.pasajes2{
+    background-image: url(./fotos/mendoza.webp);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px ;
+    
+}
+.pasajes3{
+    background-image: url(./fotos/parana.webp);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px ;
+}
+.pasajes4{
+    background-image: url(./fotos/rosario.webp);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px ;
+}
+.pasajes5{
+    background-image: url(./fotos/gualeyguachu.webp);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px ;
+}
+.pasajes6{
+    background-image: url(./fotos/puertomadryn.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px ;
+    color: black;
+} .pasajes7{
+    background-image: url(./fotos/bariloche.webp);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px ;
+}
+.hover:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}
+.barato{
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 100px;
+    color: rgb(#6a6aa8);
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ofertas{
+    color: rgb(185, 56, 142);
+}
+body{
+background-color:rgb(22, 19, 19);
+}
+.p__img{
+   text-align: center;
+   display: block;
+   color: rgb(31, 26, 26);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .caja{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.p__caja{
+    text-decoration: none;
+    display: block;
+    font-size: 21px;
+}
+.caja:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}
+.divpadre{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
